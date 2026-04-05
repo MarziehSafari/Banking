@@ -1,4 +1,4 @@
-T##### The Portfolio Risk Profile
+##### The Portfolio Risk Profile
 * Survival Modeling:  
 Utilized **Kaplan-Meier estimates** to model the survival probability of a 74,000-loan portfolio.
 * Critical Risk Window:  
