@@ -17,7 +17,7 @@ The choice of Random Forest is driven by its ability to minimize False Negatives
 **Minimizing Principal Loss:** A False Negative represents a scenario where the model predicts a non-default, but the customer ultimately defaults. In such instances, the bank incurs a substantial loss on the loan principal. Random Forest’s lower False Negative rate directly mitigates this high capital risk.
 **Evaluating Opportunity Cost:** Conversely, a False Positive occurs when a creditworthy customer is flagged as a default risk. While this results in a loss of potential interest income, it is secondary to the preservation of principal capital.
 
-#### *Actionable Strategic Insights:*
+### *Actionable Strategic Insights:*
 The ultimate selection of a model necessitates a strategic trade-off between credit accessibility and capital preservation. To optimize this balance, I recommend the following:
 
 **Principal vs. Interest Trade-off:** The modeling strategy prioritizes the prevention of large-scale principal loss over the marginal gain of interest income.
