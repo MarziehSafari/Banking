@@ -1,4 +1,13 @@
-#### The Portfolio Risk Profile
+### Project Objectives  
+#### 1. Execute "Time-to-Default" Estimation
+* Beyond Binary Classification:  
+Building on previous work that predicted if a default occurs, this phase transitions to predicting when it occurs (Time-to-Event analysis).  
+* Longitudinal Feature Engineering:  
+By calculating the delta between issue_date and last_payment_date for "Charged Off" loans, I derived the precise "Months to Default."
+* Strategic Alignment:  
+This high-level temporal insight aligns with **Expected Credit Loss (ECL)** frameworks, providing a more granular view of portfolio risk than static classification.  
+#### 2. Results and Actionable Insights
+##### The Portfolio Risk Profile
 * Survival Modeling:  
 Utilized **Kaplan-Meier estimates** to model the survival probability of a 74,000-loan portfolio.
 * Critical Risk Window:  
