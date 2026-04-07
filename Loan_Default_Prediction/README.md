@@ -18,7 +18,7 @@ The choice of Random Forest is driven by its ability to minimize False Negatives
 **Evaluating Opportunity Cost:** Conversely, a False Positive occurs when a creditworthy customer is flagged as a default risk. While this results in a loss of potential interest income, it is secondary to the preservation of principal capital.  
 
 #### *Net Profit:*  
-By lowering the decision threshold from the standard **0.50** to an **Optimized Financial Threshold of 0.42**, we maximized the portfolio's expected value. This adjustment accounts for the asymmetric risks in lending, where the cost of a **False Negative (Default)** is **5.3x higher** than the lost opportunity of a **False Positive (Foregone Interest)**.
+By lowering the decision threshold from the standard **0.50** to an **Optimized Financial Threshold of 0.42**, we maximized the portfolio's expected value. This adjustment accounts for the asymmetric risks in lending, where the cost of a **False Negative (Default)** is **5.3x higher** than the lost opportunity of a **False Positive (Interest)**.
 
 Under this financial framework—assuming an $8,000 loss per default and a $1,500 gain per loan—the **Random Forest** model outperformed **ExtraTrees**, delivering a total net profit of **$1,214,500** compared to **$1,063,500**.
 
