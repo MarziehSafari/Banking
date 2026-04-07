@@ -14,8 +14,13 @@ While both ensemble methods demonstrated high predictive power, a granular evalu
 #### *Business Impact and Risk Mitigation:*
 The choice of Random Forest is driven by its ability to minimize False Negatives.
 
-**Minimizing Principal Loss:** A False Negative represents a scenario where the model predicts a non-default, but the customer ultimately defaults. In such instances, the bank incurs a substantial loss on the loan principal. Random Forest’s lower False Negative rate directly mitigates this high capital risk.
-**Evaluating Opportunity Cost:** Conversely, a False Positive occurs when a creditworthy customer is flagged as a default risk. While this results in a loss of potential interest income, it is secondary to the preservation of principal capital.
+**Minimizing Principal Loss:** A False Negative represents a scenario where the model predicts a non-default, but the customer ultimately defaults. In such instances, the bank incurs a substantial loss on the loan principal. Random Forest’s lower False Negative rate directly mitigates this high capital risk.  
+**Evaluating Opportunity Cost:** Conversely, a False Positive occurs when a creditworthy customer is flagged as a default risk. While this results in a loss of potential interest income, it is secondary to the preservation of principal capital.  
+
+### Net Profit:  
+By lowering the decision threshold from the standard **0.50** to an **Optimized Financial Threshold of 0.42**, we maximized the portfolio's expected value. This adjustment accounts for the asymmetric risks in lending, where the cost of a **False Negative (Default)** is **5.3x higher** than the lost opportunity of a **False Positive (Foregone Interest)**.
+
+Under this financial framework—assuming an $8,000 loss per default and a $1,500 gain per loan—the **Random Forest** model outperformed **ExtraTrees**, delivering a total net profit of **$1,214,500** compared to **$1,063,500**.
 
 ### *Actionable Strategic Insights:*
 The ultimate selection of a model necessitates a strategic trade-off between credit accessibility and capital preservation. To optimize this balance, I recommend the following:
